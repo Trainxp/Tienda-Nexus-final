@@ -1,0 +1,25 @@
+.ImgShop {
+    width: 50PX;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: rgb(235, 0, 0);
+}
+
+.ImgShop:hover {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(65, 225, 92);
+}
+
+
+
+.cart{
+    padding: 5px;
+    font-size: 20px;
+    color:white;
+    background-color: black;
+    border-radius: 15px;
+   
+    
+    
+}

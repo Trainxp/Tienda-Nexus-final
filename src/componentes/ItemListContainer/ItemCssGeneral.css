@@ -1,0 +1,54 @@
+
+.conteiner{
+    margin: 0 auto;
+    width: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+/* estilos de card */
+
+.card{
+    margin: 60px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);  
+}
+
+.card:hover {
+    border: 2px solid rgb(65, 225, 225);
+    transform: scale(1.1, 1.1);
+    transition: ease .5s;
+    box-shadow: 4px 4px rgba(2, 255, 225, 0.808);
+}
+
+
+
+.card img {
+    border-radius: 10px;
+    width: 95%;
+    border: 1px solid black;
+    padding: 2px;
+}
+
+.nombreCard{
+    margin-left:.3em ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color:aliceblue;
+}
+
+.stock{
+    margin-left:.3em ;
+    font-size: 12px;
+    font-weight: bold;
+    color: aquamarine;
+}
+
+.precio{
+    margin-left:.3em ;
+    font-size: 18px;
+    color: rgb(25, 196, 96);
+}

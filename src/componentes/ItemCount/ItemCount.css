@@ -1,0 +1,40 @@
+.ItemCount{
+
+    background-color: aqua;
+    max-width: 75px;
+    height: 120px;
+    display: flex;
+    display:inline-block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid black;
+    
+}
+button{
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid red;
+    border-radius: 30%;
+    margin: 5px;
+}
+
+
+button:hover{
+    color:rgb(0, 0, 0);
+    transform: scale(1.1, 1.1);
+    transition: ease .3s;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+.contador{
+    background-color: rgb(231, 232, 240);
+}
+
+

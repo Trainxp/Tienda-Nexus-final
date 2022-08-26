@@ -1,0 +1,39 @@
+.cartview{
+    display: flex;
+    border: 1px solid black;
+    margin: 10px;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.cartview button{
+    margin-top: 29px;
+    height: 50px;
+}
+
+.imgcartview  {
+    width: 140px;
+}
+
+.cartview p{
+    color: green;
+
+}
+
+.cartview:hover{
+     transform: scale(1, 1.1);
+    transition: ease .3s;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    max-width: 580px;
+}
+
+.formulario div {
+    margin :5px;
+    margin-left: 30px;
+}
